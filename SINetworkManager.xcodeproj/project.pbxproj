@@ -19,6 +19,7 @@
 		C60BF72717608B79006E0B95 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C60BF72517608B79006E0B95 /* MainStoryboard_iPhone.storyboard */; };
 		C60BF72A17608B79006E0B95 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C60BF72817608B79006E0B95 /* MainStoryboard_iPad.storyboard */; };
 		C60BF72D17608B79006E0B95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C60BF72C17608B79006E0B95 /* ViewController.m */; };
+		C60BF73617608BA1006E0B95 /* SINetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C60BF73517608BA1006E0B95 /* SINetworkManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		C60BF72917608B79006E0B95 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		C60BF72B17608B79006E0B95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C60BF72C17608B79006E0B95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C60BF73417608BA1006E0B95 /* SINetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SINetworkManager.h; sourceTree = "<group>"; };
+		C60BF73517608BA1006E0B95 /* SINetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SINetworkManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,13 +88,8 @@
 		C60BF71317608B79006E0B95 /* SINetworkManager */ = {
 			isa = PBXGroup;
 			children = (
-				C60BF71C17608B79006E0B95 /* AppDelegate.h */,
-				C60BF71D17608B79006E0B95 /* AppDelegate.m */,
-				C60BF72517608B79006E0B95 /* MainStoryboard_iPhone.storyboard */,
-				C60BF72817608B79006E0B95 /* MainStoryboard_iPad.storyboard */,
-				C60BF72B17608B79006E0B95 /* ViewController.h */,
-				C60BF72C17608B79006E0B95 /* ViewController.m */,
-				C60BF71417608B79006E0B95 /* Supporting Files */,
+				C60BF73317608BA1006E0B95 /* Class */,
+				C60BF73717608E0C006E0B95 /* demo */,
 			);
 			path = SINetworkManager;
 			sourceTree = "<group>";
@@ -108,6 +106,30 @@
 				C60BF72317608B79006E0B95 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C60BF73317608BA1006E0B95 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				C60BF73417608BA1006E0B95 /* SINetworkManager.h */,
+				C60BF73517608BA1006E0B95 /* SINetworkManager.m */,
+			);
+			name = Class;
+			path = ../Class;
+			sourceTree = "<group>";
+		};
+		C60BF73717608E0C006E0B95 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				C60BF71417608B79006E0B95 /* Supporting Files */,
+				C60BF71C17608B79006E0B95 /* AppDelegate.h */,
+				C60BF71D17608B79006E0B95 /* AppDelegate.m */,
+				C60BF72517608B79006E0B95 /* MainStoryboard_iPhone.storyboard */,
+				C60BF72817608B79006E0B95 /* MainStoryboard_iPad.storyboard */,
+				C60BF72B17608B79006E0B95 /* ViewController.h */,
+				C60BF72C17608B79006E0B95 /* ViewController.m */,
+			);
+			name = demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +202,7 @@
 				C60BF71A17608B79006E0B95 /* main.m in Sources */,
 				C60BF71E17608B79006E0B95 /* AppDelegate.m in Sources */,
 				C60BF72D17608B79006E0B95 /* ViewController.m in Sources */,
+				C60BF73617608BA1006E0B95 /* SINetworkManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

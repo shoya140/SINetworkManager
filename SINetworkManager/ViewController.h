@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SINetworkManager.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<SINetworkManagerDelegate>
+@property (weak, nonatomic) IBOutlet UITextView *responseText;
 
 @end
